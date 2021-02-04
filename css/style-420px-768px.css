@@ -22,13 +22,15 @@
   }
 
   #steps .row>.left,
-  #steps .row>.central,
+  #steps .row>.central{
+    width: 50%;
+  }
+
   #steps .row>.right {
     float: none;
     width: 100%;
   }
 
-  #steps .row>.central img,
   #steps .row>.right img {
     margin-top: 25px;
   }
